@@ -1,0 +1,24 @@
+{
+    "name": "components/jquery-slidesjs",
+    "description": "SlidesJS is a responsive slideshow plug-in for jQuery (1.7.1+) with features like touch and CSS3 transitions.",
+    "type": "component",
+    "homepage": "http://www.slidesjs.com",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Nathan Searles"
+        }
+    ],
+    "require": {
+        "components/jquery": ">=1.7.1",
+        "robloach/component-installer": "0.0.*"
+    },
+    "extra": {
+        "component": {
+            "name": "slidesjs",
+            "files": [
+                "source/jquery.slides.min.js"
+            ]
+        }
+    }
+}
